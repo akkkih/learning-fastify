@@ -1,6 +1,6 @@
-import Fastify from 'fastify';
+import Fastify from "fastify";
 
-import { usersRoute } from './routes/users';
+import { usersRoute } from "./routes/users";
 
 async function bootstrap() {
     const app = Fastify({ logger: true });
